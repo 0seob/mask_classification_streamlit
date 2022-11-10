@@ -21,6 +21,7 @@ with open("config.yaml") as f:
     config = yaml.load(f, Loader=yaml.FullLoader)
 
 st.title("Mask Classification with Streamlit")
+st.sidebar.success("Select a page above.")
 
 st.text("Click 'camera' or 'image' on the left to try with your photo or webcam.")
 

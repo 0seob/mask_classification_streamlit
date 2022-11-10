@@ -9,6 +9,7 @@ from PIL import Image
 from predict import load_model, get_prediction
 
 st.title("Mask Classification Model with Image")
+st.sidebar.success("Select a page above.")
 
 with open("config.yaml") as f:
     config = yaml.load(f, Loader=yaml.FullLoader)
